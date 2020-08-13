@@ -24,7 +24,7 @@ repositories {
 }
 
 bootJar {
-    mainClassName = 'admin.Application'
+    mainClassName = 'org.aws.book.admin.Application'
 }
 
 
