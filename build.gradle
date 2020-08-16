@@ -23,10 +23,6 @@ repositories {
     mavenCentral()
 }
 
-bootJar {
-    mainClassName = 'org.aws.book.admin.Application'
-}
-
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
