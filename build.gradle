@@ -29,7 +29,7 @@ repositories {
 //    mainClassName = 'main.java.admin.Application'
 //}
 
-jar { manifest { attributes 'Main-Class': 'main.java.admin.Application' } from configurations.runtime.collect { zipTree(it) } }
+bootJar { manifest { attributes 'Main-Class': 'main.java.admin.Application' } from configurations.runtime.collect { zipTree(it) } }
 
 
 dependencies {
