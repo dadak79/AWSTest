@@ -29,8 +29,6 @@ repositories {
 //    mainClassName = 'main.java.admin.Application'
 //}
 
-bootJar { manifest { attributes 'Main-Class': 'main.java.admin.Application' } from configurations.runtime.collect { zipTree(it) } }
-
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
