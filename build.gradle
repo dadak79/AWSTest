@@ -24,7 +24,7 @@ repositories {
 }
 
 //mainClassName="main.java.admin.Application"
-bootJar.enabled = false
+//bootJar.enabled = false
 //bootJar {
 //    mainClassName = 'main.java.admin.Application'
 //}
