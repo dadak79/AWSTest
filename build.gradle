@@ -23,6 +23,9 @@ repositories {
     mavenCentral()
 }
 
+apply plugin: 'application'
+mainClassName = 'main.java.admin.Application'
+
 //mainClassName="main.java.admin.Application"
 //bootJar.enabled = false
 //bootJar {
