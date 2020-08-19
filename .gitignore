@@ -1,11 +1,5 @@
 # Project exclude paths
-/.gradle/
-.idea/.gitignore
-.idea/compiler.xml
-.idea/gradle.xml
-.idea/jarRepositories.xml
-.idea/misc.xml
-.idea/vcs.xml
-src/
+.gradle
+.idea
 
 application-oauth.properties
