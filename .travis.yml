@@ -17,9 +17,9 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r awstest-webservice
+  - zip -r AWSTest
   - mkdir -p deploy
-  - mv awstest-webservice.zip deploy/awstest-webservice.zip
+  - mv AWSTest.zip deploy/AWSTest.zip
 
 deploy:
   - provider: s3
