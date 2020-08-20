@@ -17,6 +17,7 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
+  - ll
   - zip -r AWSTest.zip
   - mkdir -p deploy
   - mv AWSTest.zip deploy/AWSTest.zip
