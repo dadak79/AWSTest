@@ -18,7 +18,7 @@ script: "./gradlew clean build"
 
 before_deploy:
   - ll
-  - zip -r AWSTest.zip
+  - zip -r AWSTest ./* #디렉토리 지정 필요
   - mkdir -p deploy
   - mv AWSTest.zip deploy/AWSTest.zip
 
