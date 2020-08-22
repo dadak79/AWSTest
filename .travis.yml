@@ -36,7 +36,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
     bucket: awstest-build
-    key: awstest.zip
+    key: AWSTest.zip
     bundle_type: zip
     application: AWSTest-Webservice #웹 콘솔에서 등록한 codedeploy 애플리케이션
     deployment_group: AWSTest-webservice-group #웹 콘솔에서 등록한 codedeploy 배포그룹
